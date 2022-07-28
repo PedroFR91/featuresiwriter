@@ -1,15 +1,9 @@
-import './App.css';
-
-import { createReactEditorJS } from 'react-editor-js';
-import { EDITOR_JS_TOOLS } from './tools/tools';
-
-const ReactEditorJS = createReactEditorJS();
+import Editor from './components/Editor/Editor';
 
 function App() {
   return (
     <div className='App'>
-      <h1>EDITOR JS</h1>
-      <ReactEditorJS tools={EDITOR_JS_TOOLS} />
+      <Editor />
     </div>
   );
 }
