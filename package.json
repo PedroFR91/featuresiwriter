@@ -20,6 +20,7 @@
     "@editorjs/simple-image": "^1.4.1",
     "@editorjs/table": "^2.0.2",
     "@editorjs/warning": "^1.2.0",
+    "@google-cloud/text-to-speech": "^4.0.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
